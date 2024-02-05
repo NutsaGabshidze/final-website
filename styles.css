@@ -1,0 +1,217 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+/* header  */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e8ac05;
+  color: white;
+  padding: 25px;
+  margin-bottom: 20px;
+}
+
+#logo {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+}
+
+nav {
+  display: flex;
+}
+
+.menu-item {
+  text-decoration: none;
+  color: white;
+  margin: 0 30px;
+  padding: 30px;
+}
+
+.active {
+  color: black;
+}
+
+section {
+  padding: 20px;
+}
+
+/* footer  */
+
+footer {
+  background-color: #e8ac05;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_p {
+  color: black;
+  font-size: 20px;
+}
+.contact2{
+  text-align: left;
+}
+.contact {
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.socialicons {
+  text-align: right;
+}
+
+.contact p {
+  margin: 20px 0;
+}
+
+.socicon_img {
+  width: 50px;
+  margin: 0 20px;
+}
+
+img {
+  width: 100px;
+}
+
+/* portfolio page  */
+
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-bottom: 10px;
+}
+.container {
+  width: 1090px;
+  margin: 0 130px;
+}
+
+.article_graphic {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+h2,
+h4,
+.p {
+  margin: 20px 0;
+}
+
+.article_txt {
+  width: 420px;
+}
+.myphoto {
+  width: 360px;
+  margin: 15px;
+}
+.my_photos_div {
+  padding-left: 30px;
+}
+
+.container_2 {
+  padding: 0 3%;
+  text-align: justify;
+}
+
+.bigger_font {
+  font-size: 1.3em;
+}
+
+.text {
+  padding: 0 4%;
+  text-align: justify;
+  margin-top: 8px;
+}
+
+/* contact page  */
+
+form {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: auto 30px;
+}
+
+form label {
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+  font-size: 1.3em;
+}
+
+form input,
+form textarea {
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+form button {
+  background-color: #ebb113;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5em;
+}
+
+/* form end  */
+
+.camera {
+  margin: 20px 100px;
+  width: 80%;
+  font-size: 2em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.camera_me {
+  margin: 20px 100px;
+  width: 80%;
+  text-transform: capitalize;
+}
+
+.contact_div {
+  margin: 90px;
+}
+
+.socicon_img1 {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.map {
+  margin-left: 10px;
+}
+
+.thanks {
+  width: 400px;
+}
